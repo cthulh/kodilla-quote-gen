@@ -1,0 +1,70 @@
+body {
+  background-color: #0a122a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+main {
+  background-color: #698f3f;
+  padding: 20px;
+  margin: 100px;
+  color: white;
+}
+
+main h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+
+main .box {
+  margin: 20px auto;
+  background-color: #4d692e;
+  color: black;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.box h2, .box h3 {
+  color: white;
+  padding: 16px;
+}
+
+.box .author {
+  display: block;
+  background-color: #3a4e23;
+  border-radius: 0 0 5px 5px;
+  text-align: right;
+}
+
+.box .quote {
+  text-align: center;
+}
+
+.trigger {
+  background-color: #3a4e23;
+  border: 1px solid #4d692e;
+}
+
+a.tweet, a.tweet:active, a.tweet:visited {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #029e96;
+  border: 1px solid #028781;
+}
+.btn {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  background-color: #1d2712;
+}
+a.tweet:hover {
+  background-color: #025a56;
+}
